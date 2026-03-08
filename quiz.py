@@ -10,38 +10,38 @@ if ans.lower()=="a":
   score+=5
 st.write("-----------------------------")  
   
-st.write("2. What is the capital of India?
-A) Mumbai
-B) New Delhi
-C) Kolkata
-D) Chennai")
+st.write("2. What is the capital of India?")
+st.write(A) Mumbai")
+st.write("B) New Delhi")
+st.write("C) Kolkata")
+st.write("D) Chennai")
 if ans.lower()=="b":
   score+=5
 st.write("-----------------------------")  
 
-st.write("3. Which planet is known as the Red Planet?
-A) Earth
-B) Venus
-C) Mars
-D) Jupiter")
+st.write("3. Which planet is known as the Red Planet?")
+st.write("A) Earth")
+st.write("B) Venus")
+st.write("C) Mars")
+st.write("D) Jupiter")
 if ans.lower()=="d":
   score+=5
 st.write("-----------------------------")  
 
-st.write("4. Which is the largest ocean in the world?
-A) Atlantic Ocean
-B) Indian Ocean
-C) Pacific Ocean
-D) Arctic Ocean")
+st.write("4. Which is the largest ocean in the world?")
+st.write("A) Atlantic Ocean")
+st.write("B) Indian Ocean")
+st.write("C) Pacific Ocean")
+st.write("D) Arctic Ocean")
 if ans.lower()=="c":
   score+=5
 st.write("-----------------------------")  
 
-st.write("5. Who invented the light bulb?
-A) Alexander Graham Bell
-B) Thomas Edison
-C) Isaac Newton
-D) Albert Einstein")
+st.write("5. Who invented the light bulb?")
+st.write("A) Alexander Graham Bell")
+st.write("B) Thomas Edison")
+st.write("C) Isaac Newton")
+st.write("D) Albert Einstein")
 if ans.lower()=="a":
   score+=5
 st.write("-----------------------------")
