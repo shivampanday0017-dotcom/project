@@ -1,7 +1,7 @@
 import streamlit as st
 score=0
 st.write("1. Who is the Prime Minister of India?")
-st.write"(A) Narendra Modi)
+st.write("A) Narendra Modi)
 st.write("B) Rahul Gandhi)
 st.write("C) Amit Shah)
 st.write("D) Arvind Kejriwal")
