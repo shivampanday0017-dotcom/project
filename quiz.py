@@ -11,7 +11,7 @@ if ans.lower()=="a":
 st.write("-----------------------------")  
   
 st.write("2. What is the capital of India?")
-st.write(A) Mumbai")
+st.write("A) Mumbai")
 st.write("B) New Delhi")
 st.write("C) Kolkata")
 st.write("D) Chennai")
