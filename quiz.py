@@ -5,7 +5,7 @@ st.write("A) Narendra Modi")
 st.write("B) Rahul Gandhi")
 st.write("C) Amit Shah")
 st.write("D) Arvind Kejriwal")
-ans=text_input("ente your answer")
+ans=st.text_input("enter your answer")
 if ans.lower()=="a":
   score+=5
 st.write("-----------------------------")  
