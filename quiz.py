@@ -15,6 +15,7 @@ st.write("A) Mumbai")
 st.write("B) New Delhi")
 st.write("C) Kolkata")
 st.write("D) Chennai")
+ans=st.text_input("enter your answer")
 if ans.lower()=="b":
   score+=5
 st.write("-----------------------------")  
@@ -24,6 +25,7 @@ st.write("A) Earth")
 st.write("B) Venus")
 st.write("C) Mars")
 st.write("D) Jupiter")
+ans=st.text_input("enter your answer")
 if ans.lower()=="d":
   score+=5
 st.write("-----------------------------")  
@@ -33,6 +35,7 @@ st.write("A) Atlantic Ocean")
 st.write("B) Indian Ocean")
 st.write("C) Pacific Ocean")
 st.write("D) Arctic Ocean")
+ans=st.text_input("enter your answer")
 if ans.lower()=="c":
   score+=5
 st.write("-----------------------------")  
@@ -42,6 +45,7 @@ st.write("A) Alexander Graham Bell")
 st.write("B) Thomas Edison")
 st.write("C) Isaac Newton")
 st.write("D) Albert Einstein")
+ans=st.text_input("enter your answer")
 if ans.lower()=="a":
   score+=5
 st.write("-----------------------------")
