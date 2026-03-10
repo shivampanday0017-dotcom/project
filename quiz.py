@@ -46,14 +46,14 @@ st.write("B) Thomas Edison")
 st.write("C) Isaac Newton")
 st.write("D) Albert Einstein")
 ans=st.text_input("enter your answer")
-if ans.lower()=="a":
+if ans.lower()=="b":
   score+=5
 st.write("-----------------------------")
 st.write(score)
 if score==5:
     st.write("congratulation you are 1st position")
     st.balloons()
-if score==4:
+elif score==4:
     st.write("congratulation you are 2st position")
     st.snow()
 else:
