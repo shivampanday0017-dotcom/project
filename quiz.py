@@ -6,7 +6,7 @@ st.write("B) Rahul Gandhi")
 st.write("C) Amit Shah")
 st.write("D) Arvind Kejriwal")
 ans1=st.text_input("enter your answer", key="q1")
-if ans.lower()=="a":
+if ans1.lower()=="a":
   score+=5
 st.write("-----------------------------")  
   
@@ -16,7 +16,7 @@ st.write("B) New Delhi")
 st.write("C) Kolkata")
 st.write("D) Chennai")
 ans2=st.text_input("enter your answer",key="q2")
-if ans.lower()=="b":
+if ans2.lower()=="b":
   score+=5
 st.write("-----------------------------")  
 
@@ -26,7 +26,7 @@ st.write("B) Venus")
 st.write("C) Mars")
 st.write("D) Jupiter")
 ans3=st.text_input("enter your answer",key="q3")
-if ans.lower()=="d":
+if ans3.lower()=="d":
   score+=5
 st.write("-----------------------------")  
 
@@ -36,7 +36,7 @@ st.write("B) Indian Ocean")
 st.write("C) Pacific Ocean")
 st.write("D) Arctic Ocean")
 ans4=st.text_input("enter your answer",key="q4")
-if ans.lower()=="c":
+if ans4.lower()=="c":
   score+=5
 st.write("-----------------------------")  
 
@@ -46,7 +46,7 @@ st.write("B) Thomas Edison")
 st.write("C) Isaac Newton")
 st.write("D) Albert Einstein")
 ans5=st.text_input("enter your answer",key="q5")
-if ans.lower()=="b":
+if ans5.lower()=="b":
   score+=5
 st.write("-----------------------------")
 st.write(score)
