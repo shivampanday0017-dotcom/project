@@ -56,7 +56,7 @@ if score==5:
 elif score==4:
     st.write("congratulation you are 2st position")
     st.snow()
-else:
+    else:
   st.write("better luck next time ")
   
   
