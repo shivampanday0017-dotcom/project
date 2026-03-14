@@ -26,7 +26,7 @@ st.write("B) Venus")
 st.write("C) Mars")
 st.write("D) Jupiter")
 ans3=st.text_input("enter your answer",key="q3")
-if ans3.lower()=="d":
+if ans3.lower()=="C":
   score+=5
 st.write("-----------------------------")  
 
