@@ -6,8 +6,7 @@ st.write("B) Rahul Gandhi")
 st.write("C) Amit Shah")
 st.write("D) Arvind Kejriwal")
 ans1=st.text_input("enter your answer", key="q1")
-if ans1.lower()=="a":
-  score+=5
+
 st.write("-----------------------------")  
   
 st.write("2. What is the capital of India?")
@@ -16,8 +15,7 @@ st.write("B) New Delhi")
 st.write("C) Kolkata")
 st.write("D) Chennai")
 ans2=st.text_input("enter your answer",key="q2")
-if ans2.lower()=="b":
-  score+=5
+
 st.write("-----------------------------")  
 
 st.write("3. Which planet is known as the Red Planet?")
@@ -26,8 +24,7 @@ st.write("B) Venus")
 st.write("C) Mars")
 st.write("D) Jupiter")
 ans3=st.text_input("enter your answer",key="q3")
-if ans3.lower()=="C":
-  score+=5
+
 st.write("-----------------------------")  
 
 st.write("4. Which is the largest ocean in the world?")
@@ -36,8 +33,7 @@ st.write("B) Indian Ocean")
 st.write("C) Pacific Ocean")
 st.write("D) Arctic Ocean")
 ans4=st.text_input("enter your answer",key="q4")
-if ans4.lower()=="c":
-  score+=5
+
 st.write("-----------------------------")  
 
 st.write("5. Who invented the light bulb?")
@@ -46,6 +42,15 @@ st.write("B) Thomas Edison")
 st.write("C) Isaac Newton")
 st.write("D) Albert Einstein")
 ans5=st.text_input("enter your answer",key="q5")
+
+if ans1.lower()=="a":
+  score+=5
+if ans2.lower()=="b":
+  score+=5  
+if ans3.lower()=="C":
+  score+=5  
+if ans4.lower()=="c":
+  score+=5  
 if ans5.lower()=="b":
   score+=5
 st.write("-----------------------------")
