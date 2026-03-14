@@ -43,26 +43,26 @@ st.write("C) Isaac Newton")
 st.write("D) Albert Einstein")
 ans5=st.text_input("enter your answer",key="q5")
 
-if ans1.lower()=="a":
-  score+=5
-if ans2.lower()=="b":
-  score+=5  
-if ans3.lower()=="c":
-  score+=5  
-if ans4.lower()=="c":
-  score+=5  
-if ans5.lower()=="b":
-  score+=5
+  if ans1.lower()=="a":
+    score+=5
+  if ans2.lower()=="b":
+    score+=5  
+  if ans3.lower()=="c":
+    score+=5  
+  if ans4.lower()=="c":
+    score+=5  
+  if ans5.lower()=="b":
+    score+=5
 st.write("-----------------------------")
 st.write(score)
-  if score==25:
-      st.write("congratulation you are 1st position")
-      st.balloons()
-  elif score==20:
-      st.write("congratulation you are 2st position")
-      st.snow()
-  else:
-      st.write("better luck next time ")
+if score==25:
+    st.write("congratulation you are 1st position")
+    st.balloons()
+elif score==20:
+    st.write("congratulation you are 2st position")
+    st.snow()
+else:
+    st.write("better luck next time ")
   
   
   
