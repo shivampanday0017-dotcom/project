@@ -50,7 +50,7 @@ if ans5.lower()=="b":
   score+=5
 st.write("-----------------------------")
 st.write(score)
-if score==5:
+if score==25:
     st.write("congratulation you are 1st position")
     st.balloons()
 elif score==4:
