@@ -55,14 +55,14 @@ if ans5.lower()=="b":
   score+=5
 st.write("-----------------------------")
 st.write(score)
-if score==25:
-    st.write("congratulation you are 1st position")
-    st.balloons()
-elif score==20:
-    st.write("congratulation you are 2st position")
-    st.snow()
-else:
-  st.write("better luck next time ")
+  if score==25:
+      st.write("congratulation you are 1st position")
+      st.balloons()
+  elif score==20:
+      st.write("congratulation you are 2st position")
+      st.snow()
+  else:
+      st.write("better luck next time ")
   
   
   
