@@ -47,7 +47,7 @@ if ans1.lower()=="a":
   score+=5
 if ans2.lower()=="b":
   score+=5  
-if ans3.lower()=="C":
+if ans3.lower()=="c":
   score+=5  
 if ans4.lower()=="c":
   score+=5  
